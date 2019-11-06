@@ -1,5 +1,6 @@
 package factory;
 
+// we use factory design pattern when don't know the object needed until execution time not run time (Polymorphism)
 public class Test {
 
 	public static void main(String[] args) {
