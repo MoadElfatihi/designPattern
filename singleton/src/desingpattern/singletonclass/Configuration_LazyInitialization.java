@@ -15,7 +15,7 @@ public class Configuration_LazyInitialization {
 		
 	}
 	
-	private static synchronized Configuration_LazyInitialization getInstance() {
+	public static synchronized Configuration_LazyInitialization getInstance() {
 		
 		if(config == null)
 			return new Configuration_LazyInitialization();

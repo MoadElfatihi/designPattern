@@ -15,7 +15,7 @@ public class Configuration_EagerInitialization {
 		
 	}
 	
-	public static synchronized Configuration_EagerInitialization getInstance() {
+	public static Configuration_EagerInitialization getInstance() {
 		
 		return config;
 	}

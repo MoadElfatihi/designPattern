@@ -2,7 +2,7 @@ package factory;
 
 public class FactoryUploader {
 
-	public IUploader getUploader(Integer price) {
+	public static IUploader getUploader(Integer price) {
 		if(price == null)
 		
 			return null;
